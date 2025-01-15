@@ -1,0 +1,64 @@
+html {
+    font-size: 30px;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    display: flex;
+    margin-left: 30rem;
+    /* justify-self: center; */
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    background-color: rgb(32, 29, 29);
+    color: white;
+    /* margin-right: 80rem; */
+    min-width: auto;
+    max-width: 30rem;
+    height: 100vh;   
+}
+
+ul li {
+    list-style: none;
+    font-size: 2rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li:last-child {
+    margin-top: 32rem;
+}
+
+h2 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+}
+
+.social {
+    height: 18rem;
+    width: 40rem;
+    border-radius: 1rem;
+    display: inline-flex;
+    
+}
+
+.social:nth-child(1) {
+    background-color: aliceblue;
+}
+
+.social:nth-child(2) {
+    background-color: rgb(206, 249, 221);
+}
+
+.social:nth-child(3) {
+    background-color: rgb(201, 171, 229);
+}
